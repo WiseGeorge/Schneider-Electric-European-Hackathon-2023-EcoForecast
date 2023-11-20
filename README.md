@@ -19,7 +19,7 @@ Our solution for the Schneider Electric European Hackathon 2023 is a set of EcoF
 
 ### Data Collection and Preprocessing
 
-The data for our model is collected from the **ENTSO-E Transparency** portal. We apply an Extract, Transform, Load (ETL) process to the collected data, resulting in two CSV files: `merged_gen_data.csv` and `merged_load_data.csv`. These files contain the Green Energy Generation data and Energy Load data, respectively.
+The data for our model is collected from the **ENTSO-E Transparency** portal, it will be saved in data/Raw Data. We apply an Extract, Transform, Load (ETL) process to the collected data, resulting in two CSV files: `merged_gen_data.csv` and `merged_load_data.csv` saved at data/Processed Data. These files contain the Green Energy Generation data and Energy Load data, respectively. All further data generater will be saved into data/Processed Data directory.
 
 ### Feature Engineering
 
