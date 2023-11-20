@@ -203,7 +203,7 @@ def ModelBuilding_Pipeline():
     test_surplus = Get_Surplus_DF(test)
     #strain_surplus, scaler1 = scale_data(train_surplus)
     #stest_surplus, scaler2 = scale_data(test_surplus)
-    models_dict = modeling(strain_surplus)
+    models_dict = modeling(train_surplus)
     save_models(models_dict)
 
 if __name__ == "__main__":
